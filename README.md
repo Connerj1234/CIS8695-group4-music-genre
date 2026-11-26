@@ -20,6 +20,16 @@ python -m jupyterlab
 
 Open `notebooks/music_genre_classification.ipynb` and run all cells. The two CSVs contain the labels, split assignments, and predictors needed for the notebook. The exported results were generated with Python 3.10.6 and scikit-learn 1.7.2.
 
+## Listening demo
+
+The last notebook cell uses three held-out tracks to show a correct prediction, a disagreement, and a shared mistake. Open each card to reveal the archive label and both predictions. For playback, extract the corresponding files from the FMA-small audio archive into their original paths under `data/fma_small/`:
+
+- `001/001075.mp3`
+- `000/000704.mp3`
+- `000/000182.mp3`
+
+Run the notebook locally with those clips in place. Audio can be embedded in notebook outputs, so save the version with playback under the ignored `data/` folder.
+
 ## Project files
 
 - `notebooks/` contains the analysis and model comparison.
